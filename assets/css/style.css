@@ -115,7 +115,18 @@ nav {
 
 .nav-toggle-label {
     display: none;
+} 
 
+#logo {
+    font-size: 280 %; 
+    line-height: 75px;
+    margin: o 0.5rem;
+}
+
+/* Main content */
+main  {
+    /* Push main content down to accommondate header */
+    margin-top: 79px;
 }
 }
     
