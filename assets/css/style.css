@@ -138,51 +138,6 @@ main {
     padding: 5%;
     color: #3a3a3a;
 }
-
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-
-    /* Header */
-    nav {
-        display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
-        display: flex;
-    }
-
-    #menu>li {
-        padding-left: 1rem
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: o 0.5rem;
-    }
-
-    /* Main content */
-    main {
-        /* Push main content down to accommondate header */
-        margin-top: 79px;
-    }
-
-    /* Hero */
-    #cover-text {
-        width: 300px;
-        right: 50px;
-    }
-
-}
-
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -227,6 +182,68 @@ main {
     justify-content: center;
 }
 
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: o 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommondate header */
+        margin-top: 79px;
+    }
+
+    /* Hero */
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
+
+    /* Reasons section */
+    #benefits-physical,
+    #benefits-mental {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#benefits-physical > div,
+#benefits-mental > div {
+    width: 75%;
+}
+
+#benefits-mental > div {
+    text-align: end;
+    align-self: flex-end;
+}
+
+} 
 
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
