@@ -101,11 +101,11 @@ main {
 
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-   /* Add margin at the top to prevent content from being covered by the header */
+    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
     /* Enable flex properties for child elements */
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 /* Form */
@@ -230,7 +230,7 @@ main {
 
 #benefits hr {
     border-top: 1px solid #3a3a3a;
-    margin: 5px o;
+    margin: 5px 0;
 }
 
 #circle-cover-bg {
@@ -312,7 +312,7 @@ main {
     #logo {
         font-size: 280%;
         line-height: 75px;
-        margin: o 0.5rem;
+        margin: 0 0.5rem;
     }
 
     /* Main content */
@@ -352,24 +352,27 @@ main {
 
     /* Form styling */
     #signup {
-       background-position: center;
-       position: relative }
-   
+        background-position: center;
+        position: relative
+    }
+
     #signup-form {
-        max-width: 400px; 
+        max-width: 400px;
         position: absolute;
-        left:10%;
+        left: 10%;
         top: 150px;
     }
+
     .text-input:hover {
         border-color: #f16c6b
     }
+
     .join-button:hover {
         background-color: #fafafa;
         color: #454b1b;
     }
-    
-    }
+
+}
 
 
 /* Media query: laptops and larger (992px and up) */
@@ -383,7 +386,7 @@ main {
     #photos {
         column-count: 4;
     }
- 
+
 }
 
 /* Media query: screens of 1200px and wider */
